@@ -943,6 +943,18 @@ section {
   max-width: 100%;
 }
 
+@media (max-width: 1024px) {
+  #team .member .pic img {
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  #team .member .pic img {
+    max-width: 50%;
+  }
+}
+
 #team .member h4 {
   font-weight: 700;
   margin-bottom: 2px;
